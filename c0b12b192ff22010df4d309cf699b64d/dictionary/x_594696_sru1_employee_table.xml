@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee table" max_length="40" name="x_594696_sru1_employee_table" sizeclass="2" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Employee id" max_length="40" name="employee_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee name" max_length="40" name="employee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Salary" max_length="40" name="salary" type="integer"/>
+    </element>
+</database>
